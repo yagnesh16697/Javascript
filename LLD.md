@@ -1,3 +1,46 @@
+1. [Encapsulation](#encapsulation)
+   1.1 [Private Members](#private-members)
+   1.2 [Protected Members](#protected-members)
+   1.3 [Getters and Setters](#getters-and-setters)
+
+2. [Abstraction](#abstraction)
+   2.1 [Example 1: Abstraction through a class](#example-1-abstraction-through-a-class)
+   2.2 [Example 2: Abstraction through interfaces](#example-2-abstraction-through-interfaces)
+
+3. [Inheritance](#inheritance)
+
+4. [Polymorphism](#polymorphism)
+   4.1 [Compile-time Polymorphism (Method Overloading)](#compile-time-polymorphism-method-overloading)
+   4.2 [Runtime Polymorphism (Inheritance and Method Overriding)](#runtime-polymorphism-inheritance-and-method-overriding)
+
+5. [Relationships between Classes, UML](#relationships-between-classes-uml)
+
+6. [Simple Factory, Factory Method & Abstract Factory Design Patterns](#simple-factory-factory-method--abstract-factory-design-patterns)
+
+7. [Builder, Prototype, and Singleton Design Patterns](#builder-prototype-and-singleton-design-patterns)
+
+8. [Singleton, Observer, Command Design Patterns](#singleton-observer-command-design-patterns)
+
+9. [Command, Chain of Responsibility, Iterator Design Pattern](#command-chain-of-responsibility-iterator-design-pattern)
+
+10. [Strategy and Template Design Patterns](#strategy-and-template-design-patterns)
+
+11. [Adapter and Decorator Design Patterns](#adapter-and-decorator-design-patterns)
+
+12. [Bridge, Composite, Facade, and Proxy Design Patterns](#bridge-composite-facade-and-proxy-design-patterns)
+
+13. [Elevator System Design](#elevator-system-design)
+
+14. [Interview Tips, Chess System Design](#interview-tips-chess-system-design)
+
+15. [IRCTC System Design](#irctc-system-design)
+
+16. [Meeting Scheduler LLD Mock Interview](#meeting-scheduler-lld-mock-interview)
+
+17. [State Design Pattern, Zerodha LLD](#state-design-pattern-zerodha-lld)
+
+18. [Recommendation System, NoBroker](#recommendation-system-nobroker)
+
 # OOPs, SOLID Principles
 
 ## Encapsulation
