@@ -1,17 +1,30 @@
 1. [OOPs, SOLID Principles](#oops-solid-principles)
+
 2. [Relationships between Classes, UML](#relationships-between-classes-uml)
+
 3. [Simple Factory, Factory Method & Abstract Factory Design Patterns](#simple-factory-factory-method--abstract-factory-design-patterns)
+
 4. [Builder, Prototype, and Singleton Design Patterns](#builder-prototype-and-singleton-design-patterns)
+
 5. [Singleton, Observer, Command Design Patterns](#singleton-observer-command-design-patterns)
+
 6. [Command, Chain of Responsibility, Iterator Design Pattern](#command-chain-of-responsibility-iterator-design-pattern)
+
 7. [Strategy and Template Design Patterns](#strategy-and-template-design-patterns)
+
 8. [Adapter and Decorator Design Patterns](#adapter-and-decorator-design-patterns)
+
 9. [Bridge, Composite, Facade, and Proxy Design Patterns](#bridge-composite-facade-and-proxy-design-patterns)
 10. [Elevator System Design](#elevator-system-design)
+
 11. [Interview Tips, Chess System Design](#interview-tips-chess-system-design)
+
 12. [IRCTC System Design](#irctc-system-design)
+
 13. [Meeting Scheduler LLD Mock Interview](#meeting-scheduler-lld-mock-interview)
+
 14. [State Design Pattern, Zerodha LLD](#state-design-pattern-zerodha-lld)
+
 15. [Recommendation System, NoBroker](#recommendation-system-nobroker)
 
 # OOPs, SOLID Principles
