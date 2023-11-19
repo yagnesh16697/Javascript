@@ -1,4 +1,3 @@
-````markdown
 # OOPs, SOLID Principles
 
 ## Encapsulation
@@ -27,7 +26,6 @@ Encapsulation in TypeScript involves bundling the data (properties) and methods 
    myCar.accelerate(); // Valid
    // myCar.speed; // Error: Property 'speed' is private and only accessible within class 'Car'.
    ```
-````
 
 2. **Protected Members:**
 
@@ -232,7 +230,7 @@ Polymorphism in TypeScript allows objects of different types to be treated as ob
 \*\*
 In TypeScript, you can achieve compile-time polymorphism through method overloading. This means you can define multiple functions with the same name but different parameter types or numbers.
 
-```typescript
+````typescript
 function add(a: number, b: number): number;
 function add(a: string, b: string): string;
 function add(a: any, b: any): any {
@@ -241,7 +239,6 @@ function add(a: any, b: any): any {
 
 console.log(add(1, 2)); // Output: 3
 console.log(add("Hello, ", "world!")); // Output: Hello, world!
-```
 
 2. **Runtime Polymorphism (Inheritance and Method Overriding):**
    Runtime polymorphism is achieved through inheritance and method overriding. A subclass can provide a specific implementation of a method that is already defined in its superclass.
@@ -270,7 +267,7 @@ console.log(add("Hello, ", "world!")); // Output: Hello, world!
 
    console.log(myDog.sound()); // Output: Bark!
    console.log(myCat.sound()); // Output: Meow!
-   ```
+````
 
 In the example above, `Animal` is the base class, and `Dog` and `Cat` are subclasses that inherit from `Animal`. The `sound` method is overridden in both `Dog` and `Cat` to provide specific behaviors for each subclass. The variable `myDog` is of type `Animal`, but it can hold an instance of `Dog`, and the same goes for `myCat` and `Cat`. This demonstrates runtime polymorphism.
 
@@ -329,7 +326,3 @@ In the example above, `Animal` is the base class, and `Dog` and `Cat` are subcla
 # Recommendation System, NoBRoker
 
 ...
-
-```
-
-```
