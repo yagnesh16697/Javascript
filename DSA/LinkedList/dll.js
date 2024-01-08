@@ -12,7 +12,6 @@ class DoublyLinkedList {
   }
 }
 
-// Function to append a new node to the end of the Doubly Linked List
 function appendToDoublyLinkedList(dll, data) {
   const newNode = new Node(data);
   if (!dll.head) {
@@ -27,7 +26,6 @@ function appendToDoublyLinkedList(dll, data) {
   }
 }
 
-// Function to print the elements of the Doubly Linked List
 function printDoublyLinkedList(dll) {
   let current = dll.head;
   while (current) {
@@ -36,7 +34,6 @@ function printDoublyLinkedList(dll) {
   }
 }
 
-// Function to search for a value in the Doubly Linked List
 function searchInDoublyLinkedList(dll, data) {
   let current = dll.head;
   while (current) {
@@ -48,7 +45,6 @@ function searchInDoublyLinkedList(dll, data) {
   return "Not Found";
 }
 
-// Function to delete a node at the head of the Doubly Linked List
 function deleteAtHeadDoublyLinkedList(dll) {
   if (!dll.head) return;
   dll.head = dll.head.next;
@@ -57,7 +53,6 @@ function deleteAtHeadDoublyLinkedList(dll) {
   }
 }
 
-// Function to delete a node at the tail of the Doubly Linked List
 function deleteAtTailDoublyLinkedList(dll) {
   if (!dll.head || !dll.head.next) return null;
   let current = dll.head;
@@ -67,7 +62,6 @@ function deleteAtTailDoublyLinkedList(dll) {
   current.next = null;
 }
 
-// Function to delete a node at a given position in the Doubly Linked List
 function deleteAtKDoublyLinkedList(dll, k) {
   if (!dll.head) return null;
   if (k === 1) {
@@ -93,7 +87,6 @@ function deleteAtKDoublyLinkedList(dll, k) {
   }
 }
 
-// Function to delete a node with a specific value in the Doubly Linked List
 function deleteValDoublyLinkedList(dll, val) {
   if (!dll.head) return null;
   if (val === dll.head.value) {
@@ -117,7 +110,6 @@ function deleteValDoublyLinkedList(dll, val) {
   }
 }
 
-// Function to insert a new node at the head of the Doubly Linked List
 function insertAtHeadDoublyLinkedList(dll, data) {
   const newNode = new Node(data);
   newNode.next = dll.head;
@@ -127,7 +119,6 @@ function insertAtHeadDoublyLinkedList(dll, data) {
   dll.head = newNode;
 }
 
-// Function to insert a new node at the end of the Doubly Linked List
 function insertAtLastDoublyLinkedList(dll, data) {
   const newNode = new Node(data);
   if (!dll.head) {
@@ -143,7 +134,6 @@ function insertAtLastDoublyLinkedList(dll, data) {
   }
 }
 
-// Function to insert a new node at a given position in the Doubly Linked List
 function insertAtKDoublyLinkedList(dll, data, k) {
   const newNode = new Node(data);
 
@@ -175,7 +165,6 @@ function insertAtKDoublyLinkedList(dll, data, k) {
   }
 }
 
-// Function to insert a new node before a node with a specific value in the Doubly Linked List
 function insertBeforeValDoublyLinkedList(dll, data, val) {
   const newNode = new Node(data);
   if (!dll.head) {
@@ -196,7 +185,6 @@ function insertBeforeValDoublyLinkedList(dll, data, val) {
   }
 }
 
-// Function to convert an array to a Doubly Linked List
 function arrayToDoublyLinkedList(data) {
   const dll = new DoublyLinkedList();
   for (let i = 0; i < data.length; i++) {
@@ -205,7 +193,6 @@ function arrayToDoublyLinkedList(data) {
   return dll;
 }
 
-// Main function to demonstrate Doubly Linked List operations
 function mainDoublyLinkedList() {
   let dll = arrayToDoublyLinkedList([1, 2, 3, 4, 5]);
   printDoublyLinkedList(dll);
@@ -254,5 +241,4 @@ function mainDoublyLinkedList() {
   printDoublyLinkedList(dll);
 }
 
-// Call the main function for Doubly Linked List
 mainDoublyLinkedList();
